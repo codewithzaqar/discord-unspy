@@ -10,6 +10,8 @@
   "author": "Zaqar",
   "license": "ISC",
   "dependencies": {
-    "electron": "^32.1.2"
+    "@cliqz/adblocker-electron": "^1.33.2",
+    "electron": "^32.1.2",
+    "node-fetch": "^3.3.2"
   }
 }
