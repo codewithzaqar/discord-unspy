@@ -1,0 +1,15 @@
+{
+  "name": "discord-unspy",
+  "version": "1.0.0",
+  "description": "Discord whitout spyware",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Zaqar",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^32.1.2"
+  }
+}
