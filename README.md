@@ -26,6 +26,7 @@ If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.c
 ## How to use discord ptb/canary?
 1.go to config.json
 2.change DISCORD_CLIENT_URL to https://ptb.discord.com/app pr https://canary.discord.com/app
+3.theres no step 3 lmao
 
 ## NOTE
 This is just a browser that blocks the ads and potential spyware in Discord, this doesn't actually modify the Discord client itself
