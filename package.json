@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
+  "repository": "https://github.com/codewithzaqar/discord-unspy/",
   "keywords": [],
   "author": "Zaqar",
   "license": "ISC",
