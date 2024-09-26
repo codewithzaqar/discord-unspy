@@ -1,4 +1,4 @@
-   <div align="center">
+<div align="center">
 
 <img height="200" src="https://discord.com/assets/3437c10597c1526c3dbd98c737c2bcae.svg"/>
 
