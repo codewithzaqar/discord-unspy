@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <div align="center">
-
+=======
+<div align="center">
+>>>>>>> 3a5c2f3 (h)
 <img height="200" src="https://discord.com/assets/3437c10597c1526c3dbd98c737c2bcae.svg"/>
 
 # Discord Unspy Edition
