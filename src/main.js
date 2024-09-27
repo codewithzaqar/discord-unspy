@@ -60,7 +60,7 @@ if(ver.CurrentVersion === "Stable"){
   var url = config.DISCORD_CLIENT_CANCARY
 }
 
-  mainWindow.loadURL(url, {
+  mainWindow.loadURL(config.DISCORD_CLIENT_URL, {
   userAgent:config.UserAgent
   })
 
