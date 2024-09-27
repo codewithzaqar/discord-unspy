@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 const { readFile, writeFile } = require('node:fs/promises');
 const config = require('../config.json')
+const ver = require('../versions/versions.json')
 
 let mainWindow = null;
 
@@ -50,10 +51,18 @@ const { ElectronBlocker, fullLists, Request }= await import ('@cliqz/adblocker-e
       console.log('style', style.length, url);
     });
 
-mainWindow.loadURL(config.DISCORD_CLIENT_URL, {
+// check the current version string on version.json
+if(ver.CurrentVersion === "Stable"){
+  var url = config.DISCORD_CLIENT_URL
+} else if(ver.CurrentVersion === "PublicTestBuild"){
+  var url = config.DISCORD_CLIENT_PTB
+} else if(ver.CurrentVersion === "Canary"){
+  var url = config.DISCORD_CLIENT_CANCARY
+}
+
+  mainWindow.loadURL(url, {
   userAgent:config.UserAgent
-})
-     
+  })
 
   mainWindow.on('closed', () => {
     mainWindow = null;
