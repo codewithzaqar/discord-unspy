@@ -79,7 +79,7 @@ app.on('ready', function() {
   const str3 = str2.charAt(0).toUpperCase() + str2.slice(1)
 
   const contextMenu = Menu.buildFromTemplate([
-      { label: `Discord Unspy 2.0.2 ${str3} by Zaqar`, },
+      { label: `Discord Unspy 2.0.3 ${str3} by Zaqar`, },
       { label: 'Source code ', click: function(){shell.openExternal('https://github.com/codewithzaqar/discord-unspy')}},
       { label: 'Issues ', click: function(){shell.openExternal('https://github.com/codewithzaqar/discord-unspy/issues')}},
       { label: 'Pulls ', click: function(){shell.openExternal('https://github.com/codewithzaqar/discord-unspy/pulls')}},
