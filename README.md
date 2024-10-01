@@ -23,7 +23,7 @@ npm start
 If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 ## How to use discord ptb/canary?
-see:<a href="https://github.com/codewithzaqar/discord-unspy/tree/main/versions"> Versions </a>
+change config.json
 
 ## NOTE
 This is just a browser that blocks the ads and potential spyware in Discord, this doesn't actually modify the Discord client itself, so this is not against discords tos

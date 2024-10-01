@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-sudo npm run start
+#!/usr/bin/env bash 
+npm run start
