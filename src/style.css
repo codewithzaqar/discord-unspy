@@ -29,10 +29,10 @@ body {
 
 #titlebar {
     display: block;
-    position: fixed;
+    position: relative;
     height: 24px;
     font-weight: 600;
-    width: calc(100% - 2px);
+    width: 100%;
 }
 
 .maximized #titlebar {
@@ -48,6 +48,7 @@ body {
 
 #titlebar {
     padding: 4px;
+    position: relative;
 }
 
 #titlebar #drag-region {
